@@ -1,7 +1,7 @@
 mirdata==0.3.8
 mido==1.3.2
-git+https://github.com/craffel/mir_eval.git==0.1.1
-git+https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup.git==0.1.1
+git+https://github.com/craffel/mir_eval.git
+git+https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup.git
 matplotlib==3.8.2
 lightning>=2.2.1
 pytest-timeout==2.2.0
