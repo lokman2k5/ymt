@@ -2,6 +2,7 @@ from collections import Counter
 import argparse
 import torch
 import numpy as np
+import shutil
 
 from model.init_train import initialize_trainer, update_config
 from utils.task_manager import TaskManager
@@ -271,6 +272,4 @@ def process_video(youtube_url):
 
 
 midi = process_audio('/content/drive/MyDrive/samples/r.wav')  # test run to load model before gradio UI
-
-with open("/content/ymt.mid", "w") as file:
-    file.write(midi)
+shutil.copy(midi, "/content/ymt.mid")
