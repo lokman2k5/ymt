@@ -277,5 +277,5 @@ args = parser2.parse_args()
 process_audio(args.file)
 
 
-midi = process_audio('/content/drive/MyDrive/samples/r.wav')  # test run to load model before gradio UI
+#midi = process_audio('/content/drive/MyDrive/samples/r.wav')  # test run to load model before gradio UI
 #shutil.copy(midi, "/content/ymt.mid")
