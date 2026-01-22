@@ -272,4 +272,4 @@ def process_video(youtube_url):
 
 
 midi = process_audio('/content/drive/MyDrive/samples/r.wav')  # test run to load model before gradio UI
-shutil.copy(midi, "/content/ymt.mid")
+#shutil.copy(midi, "/content/ymt.mid")
